@@ -17,6 +17,8 @@ let user_id: string;
 enum OperationType {
   DEPOSIT = 'deposit',
   WITHDRAW = 'withdraw',
+  TRANSFER = 'transfer',
+  TRANSFER_RECEIVED = 'transfer_received'
 }
 
 describe("Get Balance", () => {
